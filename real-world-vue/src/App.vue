@@ -82,4 +82,7 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
+h4 {
+  font-size: 20px;
+}
 </style>
