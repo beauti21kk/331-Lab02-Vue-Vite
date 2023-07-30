@@ -1,7 +1,7 @@
 <template>
     <div class="event-class">
       <div class="event-card">
-        <span>{{ event.title }}</span>
+        <h4>{{ event.title }}</h4>
         <h4>Category: {{ event.category }}</h4>
       </div>
     </div>
@@ -20,6 +20,7 @@
   
   <style scoped>
   .event-card {
+    text-align: right;
     padding: 20px;
     width: 250px;
     cursor: pointer;
